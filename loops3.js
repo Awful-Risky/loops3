@@ -19,3 +19,15 @@ var students = [{
  age: 18,
  city: 'Denver'
 }];	
+
+function loop1 (Array) {
+	for (i=0; i<Array.length; i++) {
+		console.log(Array[i].age);
+	}
+}
+// loop1(students);
+
+
+function loop2 () {
+	
+}
