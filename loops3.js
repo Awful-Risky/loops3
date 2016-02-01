@@ -48,4 +48,17 @@ loop3(students);
 
 
 
+function loop4 (Array) {
+	for (i=0; i<Array.length; i++) {
+		if (Array[i].age > 25) {
+			console.log(Array[i].name +' is older than 25');
+		}
+	}
+}
+loop4(students);
+
+
+
+
+
 
