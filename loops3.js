@@ -25,9 +25,27 @@ function loop1 (Array) {
 		console.log(Array[i].age);
 	}
 }
-// loop1(students);
+loop1(students);
 
 
-function loop2 () {
-	
+function loop2 (Array) {
+	for (i=0; i<Array.length; i++) {
+		console.log(Array[i].name +', ' + Array[i].city);
+	}
 }
+loop2(students);
+
+
+
+function loop3 (Array) {
+	for (i=0; i<Array.length; i++) {
+		if (Array[i].city === "Boulder") {
+			console.log(Array[i].name +' is from ' + Array[i].city);
+		}
+	}
+}
+loop3(students);
+
+
+
+
